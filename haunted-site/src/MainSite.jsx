@@ -25,12 +25,15 @@ function MainPage(){
         <div className="values section">
             <div className="column">
                 <p> One </p>
+                <img src="./Image1_OG.jpg" />
             </div>
             <div className="column">
                 <p> two </p>
+                <img src="./Image2_OG.jpg" />
             </div>
             <div className="column">
                 <p> three </p>
+                <img src="./Image1_OG.jpg" />
             </div>
         </div>
 

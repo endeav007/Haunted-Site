@@ -64,10 +64,26 @@ html, body{ padding: 0; margin: 0; height: 100%;}
 .values{
     display: flex;
     flex-direction: row;
+    gap: 10px;
+    height: 100%;
+    justify-content: space-around;
 }
 
 .column{
-    margin: 0 10px;
+    margin: 0 20px;
+    overflow: hidden;
+    width: 25rem;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.column img{
+    border: solid 10px yellow;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+
 }
 
 .contact{
