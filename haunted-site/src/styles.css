@@ -1,0 +1,38 @@
+
+#root{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html, body{ padding: 0; margin: 0; height: 100%;}
+
+.title-image{
+    
+    background-image: url("assets/SmilingPhoto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300%;
+   
+
+ 
+}
+
+.logo{
+    padding: 100%;
+    text-align: center;
+}
+.learn-more{
+    background-color: #FFE227;
+    padding: 1rem 0;
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
