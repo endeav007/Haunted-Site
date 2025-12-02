@@ -8,15 +8,11 @@
 html, body{ padding: 0; margin: 0; height: 100%;}
 
 .title-image{
-    
     background-image: url("assets/SmilingPhoto.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300%;
-   
-
- 
 }
 
 .logo{
@@ -35,4 +31,54 @@ html, body{ padding: 0; margin: 0; height: 100%;}
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.description{
+    display: flex;
+    background-color: #FFE227;
+    width: 95%;
+    padding: 20px;
+    margin: auto;
+    gap: 50px;
+    
+}
+
+.description img{
+    width: 30%;
+}
+
+.description p{
+    width: 90%
+}
+
+.section{
+    margin-bottom: 10rem;
+}
+
+.section-header{
+    text-align: center;
+    background-color: bisque;
+    padding: 3rem;
+}
+
+.values{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    margin: 0 10px;
+}
+
+.contact{
+    display: flex;
+    margin: auto;
+    width: 90%;
+}
+
+.contact img{
+    
+}
+.contact form{
+    padding: 10px;
 }
